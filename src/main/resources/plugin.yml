@@ -1,0 +1,15 @@
+name: AgSupply
+version: '1.0'
+main: cn.org.agatha.agSupply.AgSupply
+api-version: '1.21'
+description: 一个通过API获取坐标并传送玩家的插件。
+author: YourName
+commands:
+  supply:
+    description: 传送到指定ID对应的供给点。
+    usage: /supply <ID>
+    permission: supplyplugin.use
+permissions:
+  supplyplugin.use:
+    description: 允许使用 /supply 命令。
+    default: true
